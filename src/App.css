@@ -1,18 +1,22 @@
-.navbar{
+body {
+  background: rgb(27, 27, 27);
+}
+
+.navbar {
   transition: .4s ease-in-out;
 }
 
-.modebtns{
+.modebtns {
   display: grid;
   margin: auto 20px;
   place-items: center;
 }
 
-.form-control{
+.form-control {
   transition: all .3s ease-in-out;
 }
 
-.bx{
+.bx {
   border: none;
   outline: none;
   background: none;
@@ -25,17 +29,17 @@
   transition: .3s ease-in-out;
 }
 
-.bx-moon:hover{
+.bx-moon:hover {
   background-color: white;
   color: black;
 }
 
-.bx-sun{
+.bx-sun {
   color: black;
   border: 1px solid #777;
 }
 
-.bx-sun:hover{
+.bx-sun:hover {
   color: white;
   background-color: black;
 }

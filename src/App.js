@@ -9,7 +9,7 @@ export default class App extends Component {
         super(props);
         // Initialize the state
         this.state = {
-            mode: 'light'
+            mode: 'dark'
         };
     }
 
